@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Example App",
+    "slug": "example-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-config-plugin-android-styles",
+        {
+          "styles": [
+            {
+              "styleName": "DialogDatePicker.Theme",
+              "itemName": "colorAccent",
+              "itemValue": "#FF0000",
+              "parentTheme": "Theme.AppCompat.Light.Dialog"
+            },
+            {
+              "styleName": "AppTheme",
+              "itemName": "android:datePickerDialogTheme",
+              "itemValue": "@style/DialogDatePicker.Theme"
+            },
+            {
+              "styleName": "AppTheme",
+              "itemName": "android:timePickerDialogTheme",
+              "itemValue": "@style/DialogDatePicker.Theme"
+            },
+            {
+              "styleName": "AppTheme",
+              "itemName": "android:windowBackground",
+              "itemValue": "@color/white"
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

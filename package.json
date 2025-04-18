@@ -1,0 +1,46 @@
+{
+  "name": "expo-config-plugin-android-styles",
+  "version": "1.0.0",
+  "description": "Expo Config Plugin to programmatically modify Android styles.xml during prebuild. Perfect for customizing DatePicker/TimePicker colors and other Android theme attributes.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "expo",
+    "config-plugin",
+    "android",
+    "styles",
+    "theme",
+    "datepicker",
+    "timepicker",
+    "react-native",
+    "expo-plugin"
+  ],
+  "author": "Siavash Keshmiri",
+  "license": "MIT",
+  "peerDependencies": {
+    "@expo/config-plugins": ">=7.0.0",
+    "expo": ">=48.0.0"
+  },
+  "dependencies": {
+    "@expo/config-plugins": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siavashkeshmiri/expo-config-plugin-android-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siavashkeshmiri/expo-config-plugin-android-styles/issues"
+  },
+  "homepage": "https://github.com/siavashkeshmiri/expo-config-plugin-android-styles#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
