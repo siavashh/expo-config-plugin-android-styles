@@ -1,8 +1,18 @@
 # Expo Config Plugin: Android Styles Modifier
 
+[![npm version](https://img.shields.io/npm/v/expo-config-plugin-android-styles.svg)](https://www.npmjs.com/package/expo-config-plugin-android-styles)
+[![npm downloads](https://img.shields.io/npm/dm/expo-config-plugin-android-styles.svg)](https://www.npmjs.com/package/expo-config-plugin-android-styles)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An Expo Config Plugin to programmatically modify the native Android `styles.xml` file during the prebuild process.
+
+## Installation
+
+```bash
+npm install expo-config-plugin-android-styles
+# or
+yarn add expo-config-plugin-android-styles
+```
 
 ## Problem
 
@@ -23,14 +33,6 @@ This config plugin uses Expo's `withAndroidStyles` modifier to safely add or mod
 - Tested with Expo SDK 48+
 - Requires `@expo/config-plugins` >= 7.0.0 (this is a peer dependency that should be provided by your Expo project)
 - Requires `expo-build-properties` for native modifications
-
-## Installation
-
-```bash
-npm install expo-config-plugin-android-styles
-# or
-yarn add expo-config-plugin-android-styles
-```
 
 ## Usage
 
@@ -156,6 +158,15 @@ To customize the DatePicker and TimePicker accent color:
 
 This plugin hooks into the Expo prebuild process. It parses the existing styles.xml, allows you to programmatically add or modify style items using the configuration, and then writes the updated styles.xml back to the native android project directory.
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
 ## License
 
 MIT License
+
+## Links
+
+- [npm package](https://www.npmjs.com/package/expo-config-plugin-android-styles)
+- [GitHub repository](https://github.com/siavashh/expo-config-plugin-android-styles)
