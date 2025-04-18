@@ -1,6 +1,6 @@
 {
   "name": "expo-config-plugin-android-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expo Config Plugin to programmatically modify Android styles.xml during prebuild. Perfect for customizing DatePicker/TimePicker colors and other Android theme attributes.",
   "main": "src/index.js",
   "scripts": {
